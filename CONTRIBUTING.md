@@ -2,12 +2,12 @@
 
 This list uses these terms:
 
-- An **item** is one line of the list: a link and its description.
+- An **item** is one bullet point of the list: a link and its description.
 - A **workspace** is a repository of QREtools questions and instruments.
 
 ## The conditions for an item
 
-An item must agree with all of these conditions:
+An item must meet all of these conditions:
 
 - The item is public.
 - The item works with QREtools, or QREtools uses it.
