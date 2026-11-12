@@ -1,0 +1,2 @@
+# npmjs.com refuses automated requests (403), so its page cannot be checked.
+exclude = ["^https://www\\.npmjs\\.com/"]

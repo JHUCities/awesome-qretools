@@ -1,0 +1,4 @@
+{
+  // Lines wrap near 90 characters, but a long URL cannot wrap.
+  "config": { "MD013": false }
+}
