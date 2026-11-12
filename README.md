@@ -1,6 +1,6 @@
 # Awesome QREtools
 
-QREtools is a tool that writes survey questions and instruments, and exports them as
+QREtools is a tool to write survey questions and instruments, and to export them as
 DDI-Lifecycle 4.0. This list gives the public parts of the QREtools ecosystem.
 
 ## The tool
@@ -31,10 +31,10 @@ DDI-Lifecycle 4.0. This list gives the public parts of the QREtools ecosystem.
 
 ## Standards
 
-- [DDI-Lifecycle 4.0](https://ddialliance.org/ddi-lifecycle) - QREtools exports its metadata in
-  this standard.
-- [DDI agency registry](https://registry.ddialliance.org/) - This register gives out DDI agency
-  codes. Each workspace publishes its DDI under one of these codes.
+- [DDI-Lifecycle 4.0](https://ddialliance.org/ddi-lifecycle) - QREtools exports questions and
+  instruments in this standard.
+- [DDI agency registry](https://registry.ddialliance.org/) - This registry records the DDI
+  agency codes. Each workspace names one of these codes in its settings.
 - [VTL](https://sdmx.org/about-sdmx/about-vtl/) - The conditions in an instrument use
   this expression language.
 

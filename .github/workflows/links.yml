@@ -1,5 +1,7 @@
 # Checks each link once a week, because a link can break when nothing here changes. A
 # failure here does not block a pull request. GitHub sends an email when the run fails.
+# GitHub stops a scheduled workflow after 60 days with no activity in the repository.
+# The pull requests from Renovate (renovate.json) keep the repository active.
 name: Links
 
 on:
