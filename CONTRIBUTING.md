@@ -4,6 +4,8 @@ This list uses these terms:
 
 - An **item** is one line of the list: a link and its description.
 - A **workspace** is a repository of QREtools questions and instruments.
+- A **dataset** is a DDI document that holds the answers to an instrument and their
+  provenance.
 
 ## The conditions for an item
 

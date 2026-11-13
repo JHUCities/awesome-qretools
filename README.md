@@ -8,11 +8,14 @@ DDI-Lifecycle 4.0. This list gives the public parts of the QREtools ecosystem.
 - [qretools.com](https://qretools.com/) - The QREtools editor runs in the browser. It saves questions
   and instruments to a workspace on GitHub.
 - [qretools on npm](https://www.npmjs.com/package/qretools) - This package is the command-line
-  tool. It checks a workspace, builds its DDI, and writes an instrument as a QSF file that
-  [Qualtrics](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/)
-  imports.
+  tool. It checks a workspace, builds its DDI, writes an instrument as a QSF file for
+  [Qualtrics](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/),
+  and makes a dataset from survey answers.
 - [JHUCities/qretools](https://github.com/JHUCities/qretools) - This repository holds the source
   code of QREtools, under the MIT License.
+- [qretools-harness](https://github.com/JHUCities/qretools-harness) - This program asks a
+  language model the questions of an instrument. The model answers as one or more
+  respondents, and the harness makes a dataset with QREtools.
 
 ## Start here
 
@@ -25,7 +28,8 @@ DDI-Lifecycle 4.0. This list gives the public parts of the QREtools ecosystem.
 
 - [qretools-gss](https://github.com/JHUCities/qretools-gss) - This workspace holds the
   demographic questions and the work questions of the GSS Replicating Core, and an
-  instrument. GitHub Pages publishes its [DDI](https://jhucities.github.io/qretools-gss/ddi.json).
+  instrument. GitHub Pages publishes its [DDI](https://jhucities.github.io/qretools-gss/ddi.json),
+  and its `maps` folder connects the columns of GSS data and of Qualtrics exports to the DDI variables.
 - [qretools-big-5](https://github.com/JHUCities/qretools-big-5) - This workspace holds the 50
   questions of the IPIP Big-Five Factor Markers, and an instrument that calculates the five scores.
 
