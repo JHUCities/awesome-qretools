@@ -23,6 +23,9 @@ DDI-Lifecycle 4.0. This list gives the public parts of the QREtools ecosystem.
   workspace. Its README gives the steps to set up the workspace and to release it.
 - [qretools-tutorial](https://github.com/JHUCities/qretools-tutorial) - This template holds short
   lessons. Each lesson is a question or an instrument with a gap that you fill in.
+- [qretools-skill](https://github.com/JHUCities/qretools-skill) - This agent skill tells an
+  AI agent how to do survey research with QREtools: make datasets, check their provenance,
+  and compare real answers with the answers of a language model.
 
 ## Example workspaces
 
